@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* nav bar................ */
+
+nav {
+    height: 60px;
+    background-color: #666;
+    color: #f4f4f4;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 18px;
+}
+
+nav ul li {
+    padding: 0 35px;
+}
+
+
+
+.pimg1 {
+    background-image: url("1.jpg");
+    min-height: 100%;
+
+
+
+}
+
+.pimg2 {
+    background-image: url("2.jpg");
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url("3.png");
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+
+}
+
+.textBg {
+    background-color: black;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+footer {
+    height: 40px;
+    background-color: #666;
+    color: #f4f4f4;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+footer>p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media only screen and(max-width:440px) {
+
+    .ptext {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+
+}
